@@ -64,7 +64,7 @@ var parseMinifiedCSS = function (e, data) {
         fd = fs.openSync(output, 'w');
         fs.writeSync(fd, code, 0, 'utf8');
     } else {
-        sys.print(code);
+        console.log(code);
     }
 };
 
